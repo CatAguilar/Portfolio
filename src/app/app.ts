@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavbarGlobal } from './components/navbar-global/navbar-global';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, NavbarGlobal],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

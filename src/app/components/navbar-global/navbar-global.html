@@ -20,4 +20,10 @@
       <a routerLink="/blog" routerLinkActive="active">Blog</a>
     </li>
   </ul>
+
+  <button class="theme-toggle" (click)="toggleTheme()">
+    <mat-icon>
+      {{ isDark? 'lightbulb' : 'bedtime'}}
+    </mat-icon>
+  </button>
 </nav>
